@@ -1,0 +1,49 @@
+=======================================================
+  JSON Formatting Demo
+=======================================================
+
+[Valid JSON] ✅ PASS
+  Input:  {"name": "Alice", "age": 30, "role": "engineer"}
+  Output: {"name": "Alice", "age": 30, "role": "engineer"}
+  🔧 JSON repaired successfully
+
+[Markdown fences] ✅ PASS
+  Input:  ```json
+{"model": "gpt-4", "temperature": 0.7}
+```
+  Output: ```json\n{"model": "gpt-4", "temperature": 0.7}\n```
+
+[Single quotes] ✅ PASS
+  Input:  {'name': 'Charlie', 'score': 95, 'passed': True}
+  Output: {\n  "error": "Invalid JSON after repair attempt: Expecting value: line 1 column
+  🔧 JSON repaired successfully
+
+[Trailing comma] ✅ PASS
+  Input:  {"key": "value", "items": [1, 2, 3,],}
+  Output: {"key": "value", "items": [1, 2, 3,],}
+
+[Truly invalid] ✅ PASS
+  Input:  This is not JSON at all: ??? {] broken [}
+  Output: {\n  "error": "Invalid JSON after repair attempt: Expecting value: line 1 column
+
+=======================================================
+✅ Step 4 complete!
+=======================================================
+
+✅ Step 4 — Guardrails Validators completed in 3.4s
+
+  Input:  {'name': 'Charlie', 'score': 95, 'passed': True}
+  Output: {\n  "error": "Invalid JSON after repair attempt: Expecting value: line 1 column
+  🔧 JSON repaired successfully
+
+[Trailing comma] ✅ PASS
+  Input:  {"key": "value", "items": [1, 2, 3,],}
+  Output: {"key": "value", "items": [1, 2, 3,],}
+
+[Truly invalid] ✅ PASS
+  Input:  This is not JSON at all: ??? {] broken [}
+  Output: {\n  "error": "Invalid JSON after repair attempt: Expecting value: line 1 column
+
+=======================================================
+✅ Step 4 complete!
+=======================================================
