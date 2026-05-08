@@ -4,7 +4,7 @@ Dưới đây là tổng hợp các minh chứng cho việc triển khai hệ th
 
 ## 🔗 LangSmith Public Link
 Mọi hoạt động tracing, prompt versioning và evaluation đều có thể xem trực tiếp tại đây:
-👉 **[LangSmith Public Project URL](https://smith.langchain.com/public/e7fc52aa-b56e-483b-8d36-f921c5bb0b9d/r)**
+👉 **(https://smith.langchain.com/public/e7fc52aa-b56e-483b-8d36-f921c5bb0b9d/r)**
 
 ---
 
