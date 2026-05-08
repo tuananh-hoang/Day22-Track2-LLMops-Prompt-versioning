@@ -1,5 +1,5 @@
 # 📊 Day 22 Lab Evidence - LangSmith & Prompt Versioning
-> 2A202600075 - Hoàng Tuấn Anh
+> 2A202600075 - Hoàng Tuấn Anh <br>
 Dưới đây là tổng hợp các minh chứng cho việc triển khai hệ thống Production-grade RAG Pipeline.
 
 ## 🔗 LangSmith Public Link
